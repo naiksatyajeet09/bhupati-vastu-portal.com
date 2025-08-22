@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vastu Consultation</title>
+  <link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+</head>
+<body>
+
+<head>
+
+<div class="compass-icon">
+  <img src="compass.png" alt="Compass" id="compass-icon">
+</div>
+
+
+  <style>
+    #vastu-compass {
+      position: fixed;
+      top: 20px;
+      left: 20px;
+      width: 100px;
+      height: 100px;
+      z-index: 1000;
+    }
+
+    #compass-img {
+      width: 100%;
+      height: 100%;
+      transform-origin: center center;
+      transition: transform 0.3s ease-in-out;
+    }
+  </style>
+</head>
+
+
+  <header>
+   <h1 class="zoom-in-title">S BHUPATI VASTU</h1>
+    <p>Vastu Consultation – the world’s leading platform on Vastu, promotes the idea that Vastu is a form of energy and space healing.</p>
+    <div class="buttons">
+      <a href="#">Services</a>
+      <a href="#">Contact Us</a>
+    </div>
+  </header>
+
+<div class="slide s1">
+  <div class="dark-overlay"></div>
+  <img src="slide1.jpg" alt="Slide 1">
+  <div class="slide-text">
+   <h1 class="typing-text">Welcome to Bhupati Vastu</h1>
+    <p>Where cosmic harmony meets your space ✨</p>
+  </div>
+</div>
+
+
+<div class="auto-slider">
+  <div class="slider-track">
+    <div class="slide"><img src="slide1.jpg" alt="Slide 1"></div>
+    <div class="slide"><img src="slide2.jpg" alt="Slide 2"></div>
+    <div class="slide"><img src="slide3.jpg" alt="Slide 3"></div>
+  </div>
+</div>
+<div class="appointment-container">
+  <form id="whatsappForm" onsubmit="sendToWhatsApp(); return false;" class="glass-card">
+    <h2>📅 Appointment Request</h2>
+
+    <label>Name By:</label>
+    <input type="text" id="by" placeholder="Your Name" required>
+
+    <label>Number Mobile Number:</label>
+    <input type="tel" id="mobile" placeholder="10-digit number" required>
+
+    <label>Date of Birth Date of Birth:</label>
+    <input type="date" id="dob" required>
+
+    <label>💬 Messages:</label>
+    <textarea id="message" rows="3" placeholder="Your message..." required></textarea>
+
+    <button type="submit" class="glow-button">Send to WhatsApp</button>
+  </form>
+</div>
+
+
+<section class="services-section">
+  <h2 class="services-heading">Our Services</h2>
+  <div class="modern-cards">
+    <div class="modern-card">
+      <div class="icon">🏠</div>
+      <h3>Home Vastu Consultation</h3>
+      <p>Guidelines applied to any home for increasing comfort and positive energy.</p>
+     <a href="home-vastu.html" class="read-more-link">Read More →</a>
+    </div>
+    <div class="modern-card">
+      <div class="icon">🏢</div>
+      <h3>Office Vastu Consultation</h3>
+      <p>Make your workspace Vastu-friendly to enhance prosperity and productivity.</p>
+     <a href="office-vastu.html" class="read-more-link">Read More →</a>
+    </div>
+    <div class="modern-card">
+      <div class="icon">🏭</div>
+      <h3>Industrial Vastu Consultation</h3>
+      <p>Improve industrial vibrations to support critical functions of the business.</p>
+     <a href="industrial-vastu.html" class="read-more-link">Read More →</a>
+    </div>
+    <div class="modern-card">
+      <div class="icon">⚡</div>
+      <h3>Quick Vastu Consultation</h3>
+      <p>Virtual Vastu advice through call, Skype, or chat for existing or new properties.</p>
+     <a href="quick-vastu.html" class="read-more-link">Read More →</a>
+    </div>
+  </div>
+</section>
+
+
+<section class="vastu-section">
+  <div class="vastu-container">
+    <div class="vastu-image">
+      <img src="vastu-plan.jpg" alt="Vastu Layout">
+    </div>
+    <div class="vastu-text">
+      <h4>VASTU SHASTRA</h4>
+      <h2>What is Vastu Shastra?</h2>
+      <p>Vastu is an alignment of cosmic forces with five key elements (Water, Fire, Earth, Space, and Wind) of nature.</p>
+      <p>Vastu is a Vedic system of architecture and design from ancient times recorded in various Vastu texts. It consists of rules for designing and constructing buildings in a systematic manner.</p>
+      <p>Vastu has a very basic concept, that every space has a soul of its own and a flow of positive energy would exist around it if that soul is harnessed in the right way.</p>
+    </div>
+  </div>
+</section>
+<section class="vastu-importance">
+  <div class="importance-container">
+    <div class="importance-image">
+      <img src="capture2.jpg" alt="Importance of Vastu">
+    </div>
+    <div class="importance-text">
+      <h4>IMPORTANCE</h4>
+      <h2>How Vastu Affects Our Daily Life?</h2>
+      <p>Vastu principles not only influence the physical design of spaces but also impact the mental and spiritual well-being of individuals living or working within those spaces.</p>
+      <ul>
+        <li>Aligns with natural energies</li>
+        <li>Promotes mental peace</li>
+        <li>Enhances productivity</li>
+        <li>Builds a balanced lifestyle</li>
+      </ul>
+    </div>
+  </div>
+</section>
+
+<!-- 🌐 Social Contact Buttons -->
+<div class="social-float">
+  <a href="https://t.me/Aniruddh Naik" target="_blank" class="circle-btn telegram"><i class="fab fa-telegram-plane"></i></a>
+  <a href="https://www.instagram.com/bhupativastu" target="_blank" class="circle-btn instagram"><i class="fab fa-instagram"></i></a>
+  <a href="https://www.facebook.com/yourFacebookUsername" target="_blank" class="circle-btn facebook"><i class="fab fa-facebook-f"></i></a>
+  <a href="https://wa.me/919358519393" target="_blank" class="circle-btn whatsapp big"><i class="fab fa-whatsapp"></i></a>
+</div>
+
+<script>
+function sendToWhatsApp() {
+  var by = document.getElementById("by").value;
+  var mobile = document.getElementById("mobile").value;
+  var dob = document.getElementById("dob").value;
+  var message = document.getElementById("message").value;
+
+  var text =
+    "*Appointment Request:*\n" +
+    "BY: " + by + "\n" +
+    "MOBILE NUMBER: " + mobile + "\n" +
+    "DATE OF BIRTH: " + dob + "\n" +
+    "MESSAGES: " + message;
+
+  var phone = "919358519393"; // e.g., "919XXXXXXXXX"
+  var url = "https://wa.me/" + phone + "?text=" + encodeURIComponent(text);
+  window.open(url, '_blank');
+}
+</script>
+
+
+
+
+</body>
+
+<script>
+  window.addEventListener('deviceorientation', function(e) {
+    let alpha = e.alpha;
+    if (alpha !== null) {
+      let rotation = 360 - alpha;
+      document.getElementById("compass-img").style.transform = `rotate(${rotation}deg)`;
+    }
+  }, true);
+</script>
+
+
+</html>
